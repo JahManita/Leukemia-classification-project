@@ -1,1 +1,1 @@
-# Leukemia-classification-project
+# Leukemia-cell-classification-project
