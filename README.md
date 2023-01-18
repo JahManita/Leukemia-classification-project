@@ -17,15 +17,17 @@ Details and Methods
 
 - Naïve Bayes and Logistic regression: prepared dataset by extracting features from the white blood cell images.
 
-  o Pixel values
+  - Pixel values
   
-      - Max_NM_pixel: Normalized Pixel values in the range of 0-1 and take the maximum value
+      o Max_NM_pixel: Normalized Pixel values in the range of 0-1 and take the maximum value
       
-      - Mean_global: Calculated and subtracted the mean pixel value across color channels
+      o Mean_global: Calculated and subtracted the mean pixel value across color channels
       
-      - SD_global: Calculated standard deviation across all color channels
+      o SD_global: Calculated standard deviation across all color channels
       
-  o Circle detection: Used function cv2.minEnclosingCircle() to detect circle which completely covers the object with minimum area and find the radius and center X, Y   of the white blood cell. Since I think that leukemia white blood cells will be blasted, this should have an effect on the radius of the cell image.
+  - Circle detection: Used function cv2.minEnclosingCircle() to detect circle which completely covers the object with minimum area and find the radius and 
+  center X, Y of the white blood cell. Since I think that leukemia white blood cells will be blasted, this should have an effect on the radius of the cell image.
   
 Conclusion
+
   This project’s dataset fits better with Naïve Bayes with categorical model which gives the F1 score of 0.798, while the Neural network generated the lowest F1 score, which is 0.76. The Naïve Bayes and Logistic regression are the powerful supervised algorithm used for binary classification problems. A neural network is more complex and must train the model carefully and it will produce better performance when you have sufficient training data
