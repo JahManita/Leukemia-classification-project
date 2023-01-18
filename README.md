@@ -30,4 +30,4 @@ Details and Methods
   
 Conclusion
 
-    This project’s dataset fits better with Naïve Bayes with categorical model which gives the F1 score of 0.798, while the Neural network generated the lowest F1 score, which is 0.76. The Naïve Bayes and Logistic regression are the powerful supervised algorithm used for binary classification problems. A neural network is more complex and must train the model carefully and it will produce better performance when you have sufficient training data
+This project’s dataset fits better with Naïve Bayes with categorical model which gives the F1 score of 0.798, while the Neural network generated the lowest F1 score, which is 0.76. The Naïve Bayes and Logistic regression are the powerful supervised algorithm used for binary classification problems. A neural network is more complex and must train the model carefully and it will produce better performance when you have sufficient training data
